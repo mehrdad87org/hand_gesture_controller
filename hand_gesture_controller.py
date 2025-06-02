@@ -22,7 +22,7 @@ class MoveImageApp:
         self.root = root
         self.camera_label = camera_label
         self.image_frame = image_frame
-        self.image_path = r'C:\Users\mehrdad\Desktop\media pipe\src\photo.PNG'
+        self.image_path = r'YOUR_IMAGE_PATH'
         self.image = cv2.imread(self.image_path)
         if self.image is None:
             print(f"Error: Unable to load image at {self.image_path}. Please check the file path.")
